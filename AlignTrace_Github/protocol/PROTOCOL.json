@@ -1,0 +1,69 @@
+{
+  "workflow": "AlignTrace",
+  "main_prefilter": false,
+  "shortcut_only_real": [
+    "illumina",
+    "grass"
+  ],
+  "batch_size": 64,
+  "candidate_budget": 20,
+  "beam_width": 24,
+  "returned_candidates": 5,
+  "learned_gate_threshold": 0.5,
+  "read_support_ratio": 0.8,
+  "repeats": 3,
+  "timing": "Synchronized complete in-memory inference, three interleaved warm repetitions; stage service times overlap.",
+  "known_target_length": true,
+  "use_all_reads": true,
+  "constraints": false,
+  "refinement": false,
+  "model_selection": "Fixed synthetic-trained checkpoints; dataset-specific fine-tuned checkpoints evaluated on the frozen held-out real splits. No test-set checkpoint selection.",
+  "contamination_levels": [
+    0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "contamination_shortcut": false,
+  "contamination_filter_comparison": [
+    "off",
+    "learned"
+  ],
+  "full_round_includes_io_score_export_wall": true,
+  "evaluated_datasets": 93,
+  "synthetic_datasets": 39,
+  "method_dataset_cells": 141,
+  "reference_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+    "numpy": "2.3.5",
+    "numba": "0.68.0",
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "numba_threading_requested": "omp",
+    "torch_threads": 4,
+    "rapidfuzz": "3.14.6"
+  },
+  "reproduction_scope": "AlignTrace inference using supplied checkpoints. Training and external baseline implementations are not included."
+}

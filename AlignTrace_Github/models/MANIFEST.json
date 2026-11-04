@@ -1,0 +1,23 @@
+{
+  "generator": {
+    "path": "models/synthetic/generator.pt",
+    "sha256": "07d079d5ab84af607f7290378d70f3913976595c208fca61d62dd502cc61af8b",
+    "parameters": 88006,
+    "bytes": 366559,
+    "tensor_state_sha256": "77c5f11d1e6b1d9b0d256a2f2ac57496ba54265ee75bd87ae44bf73176c08153"
+  },
+  "reranker": {
+    "path": "models/synthetic/reranker.pt",
+    "sha256": "25cf50a446a9eed19d92d5b276717c7439274ae26e28ac405c5e523d5846fe63",
+    "parameters": 1282,
+    "bytes": 9684,
+    "tensor_state_sha256": "9a9550e0ac6882099b37f4cd4950f545db976081c336619885d6023f09c9431a"
+  },
+  "prefilter_gate": {
+    "path": "models/prefilter/gate.json",
+    "sha256": "f2113f8bab4b0289d2a9bdfe227f8dba299c76e1c659dc9085f7c37acb7a89c0",
+    "parameters": 145,
+    "bytes": 4854,
+    "format": "JSON arrays with trained weights and feature normalization"
+  }
+}

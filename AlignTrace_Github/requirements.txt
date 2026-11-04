@@ -1,0 +1,6 @@
+# Reference environment: Python 3.12.14. Install a suitable PyTorch CUDA wheel
+# for your hardware first if needed; CPU inference is also supported.
+numpy==2.3.5
+numba==0.68.0
+torch==2.8.0
+rapidfuzz==3.14.6

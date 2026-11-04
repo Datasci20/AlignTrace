@@ -1,0 +1,38 @@
+{
+  "chandak": {
+    "generator": "models/fine_tuned/chandak/generator.pt",
+    "reranker": "models/fine_tuned/chandak/reranker.pt",
+    "generator_sha256": "41ad125e16d511bbac6d60574f930987b2d633f8fe432d8c649253d834ebc066",
+    "reranker_sha256": "dafc452caf04fa4073997d30f6e4269e4561c10d12779f2c24b07c36e956b7ba"
+  },
+  "trellis": {
+    "generator": "models/fine_tuned/trellis/generator.pt",
+    "reranker": "models/fine_tuned/trellis/reranker.pt",
+    "generator_sha256": "7d50c323820443e3340b0dca105846a7336e5e133e329f5b407e096ac650f6c4",
+    "reranker_sha256": "2423a1c9063fdb45208f44ad0898bb58eced4500b26c393026736799260ec573"
+  },
+  "grass": {
+    "generator": "models/fine_tuned/grass/generator.pt",
+    "reranker": "models/fine_tuned/grass/reranker.pt",
+    "generator_sha256": "388cd0407ba02be587b23377c63a2e9fd2f5d4b5746b1f168f44b034ac8eed4e",
+    "reranker_sha256": "fa7987008d6f2a1aefaaeda71bccfc04f271880f2da416130e663aa939f7e9d8"
+  },
+  "first_flowcell": {
+    "generator": "models/fine_tuned/first_flowcell/generator.pt",
+    "reranker": "models/fine_tuned/first_flowcell/reranker.pt",
+    "generator_sha256": "aa09c19b70423354565a27b652a340ab7c9d3f4d7f4ddd952172608dc9f9ee50",
+    "reranker_sha256": "9414f3ce81ac03aa6e9a841d275c3f4f6cb30b7aed13486cc15808615cf9e115"
+  },
+  "second_flowcell": {
+    "generator": "models/fine_tuned/second_flowcell/generator.pt",
+    "reranker": "models/fine_tuned/second_flowcell/reranker.pt",
+    "generator_sha256": "370bbf7b4fb0c002a35dd5248421b3b182626890eda27f8e293fd7619aacb8d9",
+    "reranker_sha256": "e9d3668a36a6ed0a228884654621012a4c2cc95084de344bc92a01e87d30137a"
+  },
+  "illumina": {
+    "generator": "models/fine_tuned/illumina/generator.pt",
+    "reranker": "models/fine_tuned/illumina/reranker.pt",
+    "generator_sha256": "82c092adce161952dada182305cc0faf5661bbf72d7e0ad231d4c78e8cefb848",
+    "reranker_sha256": "616f005c48c686f79abe0c0ac7821f8b765d243d0ba82d960832dba13bbc3c38"
+  }
+}

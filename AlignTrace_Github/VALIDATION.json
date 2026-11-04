@@ -1,0 +1,78 @@
+{
+  "package": "AlignTrace",
+  "validation_date": "2026-11-02",
+  "functional_checks_passed": true,
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.8.0+cu128",
+    "numpy": "2.3.5",
+    "numba": "0.68.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "rapidfuzz": "3.14.6"
+  },
+  "static_checks": {
+    "python_files_parsed": 24,
+    "cli_help_checked": 3,
+    "dataset_selectors_checked": true,
+    "catalog_datasets": 107,
+    "catalog_comparisons": 169,
+    "clean_release_tree": true,
+    "single_learned_filter_control": true
+  },
+  "checkpoint_hashes_verified": 15,
+  "regression_tests": 7,
+  "cpu_filter_shortcut_combinations": 4,
+  "cuda_prediction_and_evaluation_filter_modes": [
+    "off",
+    "on"
+  ],
+  "output_overwrite_guard_verified": true,
+  "removed_cli_options_rejected": true,
+  "full_gpu_benchmark": {
+    "datasets": 107,
+    "model_dataset_comparisons": 169,
+    "clusters": 706615,
+    "source_and_prepared_input_hashes_verified": true,
+    "matching_candidate_digests": 169,
+    "maximum_absolute_metric_delta": 0,
+    "warm_repetitions_per_comparison": 3,
+    "repeated_predictions_identical": true,
+    "timings_without_verified_gpu_isolation": 169,
+    "timing_note": "Concurrent GPU processes were recorded; these runs validate accuracy, not isolated reference performance."
+  },
+  "benchmark_smoke": {
+    "clusters": 32,
+    "filter_modes": [
+      "off",
+      "on"
+    ],
+    "passed": true
+  },
+  "scope": "Inference, evaluation, and benchmark reproduction with supplied checkpoints; no model retraining or clean-environment installation was performed.",
+  "distribution": {
+    "environments_included": false,
+    "caches_included": false,
+    "datasets_included": false,
+    "license_assigned": false,
+    "public_dataset_download_url_provided": false
+  }
+}

@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "real__chandak",
+    "name": "chandak",
+    "cohort": "real",
+    "n": 1466,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "6efb4cb674124773c6144f9fcba2fb59df5abdd6f4e23f62df2c988b7fb06a8d",
+    "target_length": 108,
+    "sources": [
+      {
+        "path": "Real Datasets/Chandak 2020 dataset/Refs.txt",
+        "sha256": "040c40202bae1c460f77240facb7c8ee14d8f202a209cfd2381b43472fb5f8f6"
+      },
+      {
+        "path": "Real Datasets/Chandak 2020 dataset/Clusters.txt",
+        "sha256": "45b69dbb2b32e053a8faa9d8fcaab9950a8dd571c5ff89ed83a08ce7d59b54ac"
+      }
+    ]
+  },
+  {
+    "id": "real__trellis",
+    "name": "trellis",
+    "cohort": "real",
+    "n": 10000,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "20e51f7da57c4c7642773348231aa61a0370eb0a5cf5925eef3c2a396d2a2562",
+    "target_length": 110,
+    "sources": [
+      {
+        "path": "Real Datasets/TrellisBMA clustered-nanopore-reads-dataset/Centers.txt",
+        "sha256": "b70e723ef0d83a88f7b3e483b932b0279628a0eae39cb4e41d99b9e367c5341e"
+      },
+      {
+        "path": "Real Datasets/TrellisBMA clustered-nanopore-reads-dataset/Clusters.txt",
+        "sha256": "7c2e27b497762ed3bb01a2d27ed09ca2291d590a0a7534a25307876d76b6ca22"
+      }
+    ]
+  },
+  {
+    "id": "real__grass",
+    "name": "grass",
+    "cohort": "real",
+    "n": 4982,
+    "shortcut": true,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "a9effde252d91f28dbd4d8e254b60d81242f85eff564afde4cf612ca32df24d0",
+    "target_length": 117,
+    "sources": [
+      {
+        "path": "Real Datasets/Grass.txt",
+        "sha256": "e1e7257fe023590983c1af7506cdbc34b0cda1d2eb396490f54dc3552247b8aa"
+      }
+    ]
+  },
+  {
+    "id": "real__first_flowcell",
+    "name": "first_flowcell",
+    "cohort": "real",
+    "n": 109935,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "c42ab36d589e29f50b1e19da8e94cd88f011a47d566c951a2cb06b0f649828da",
+    "target_length": 140,
+    "sources": [
+      {
+        "path": "Real Datasets/BinnedNanoporeFirstFlowcell.txt",
+        "sha256": "98ed91d0bfbeaa4d0b32bda8f44f49d05fcffddaa811989dfdfd502f01885d67"
+      }
+    ]
+  },
+  {
+    "id": "real__second_flowcell",
+    "name": "second_flowcell",
+    "cohort": "real",
+    "n": 109753,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "972907e99d3029ffda1273ff8b08343e59729804817181e54802fc4e86612841",
+    "target_length": 140,
+    "sources": [
+      {
+        "path": "Real Datasets/BinnedNanoporeSecondFlowcell.txt",
+        "sha256": "696e4e38c554992fd980ed0ca0a6be9ce6fe7a9fea8751216db61c7faca81112"
+      }
+    ]
+  },
+  {
+    "id": "real__illumina",
+    "name": "illumina",
+    "cohort": "real",
+    "n": 109944,
+    "shortcut": true,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "a86bb194113941366a03bb45d234acba8cad1024afc9c8a5ba3a32195010487a",
+    "target_length": 140,
+    "sources": [
+      {
+        "path": "Real Datasets/BinnedTestIllumina.txt",
+        "sha256": "2315fff1bcf8dac584a3eaf3af65d6f9d9f2ca9d3fed6dbeabe8834bbbe61409"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_02_burst2_error",
+    "name": "depth_02_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "a633d60c3ff162ba6eeb4ce576c4ad2c932f3be55baa2c7d7413d6b28234ba7e",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_02_burst2_error.txt",
+        "sha256": "980e1900cbda804e821d4660c121f8b8e79bd9b32f5fc22c3574982e039994df"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_02_burst2_error.metadata.jsonl",
+        "sha256": "e9e513ef13b845866dcc609cf8e9134934e8c3c6c4472c604f4ca8fa0eea24c7"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_03_burst2_error",
+    "name": "depth_03_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "344f31af62d62458096963fc995e35860ea768fd6a34d0803f5db58e9e96b20f",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_03_burst2_error.txt",
+        "sha256": "7637ea201719f309b08a2d7296197ab4ba6f2423f6f65c188c45bec4228322bf"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_03_burst2_error.metadata.jsonl",
+        "sha256": "952b4ef0c9e5e10bc4ff7c50ee5d11645befa9e07893b22af09c465013f6035e"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_05_burst2_error",
+    "name": "depth_05_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "6b95c54c82a90076c398339b83df303cafaff743935cd375f1e22120bf176107",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_05_burst2_error.txt",
+        "sha256": "365ab385339932e758178b2deae207104a141148e5fdcf738d8b411857fe441c"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_05_burst2_error.metadata.jsonl",
+        "sha256": "69fb4a31453cb3b5ea23b00e44df7b5ee5fcddc795aef00327f7e22fb2df1e04"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_08_burst2_error",
+    "name": "depth_08_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "b448a17e1658830e15aa26cbd6a7b439f8463abf97eed4394d91a3147daa959d",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_08_burst2_error.txt",
+        "sha256": "954424893a143a4c4e6eb749705d966411ad02c13667fdfb0f9e30e32f8d67ad"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_08_burst2_error.metadata.jsonl",
+        "sha256": "511bab54782abd687fc7d643f74e88c69321062b12a098e367bdd5571482899d"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_10_burst2_error",
+    "name": "depth_10_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "12e98de18139ea5c4e7d44b9e5a36b16a2e51950ad7b38461e5ef1f0f8691fd6",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_10_burst2_error.txt",
+        "sha256": "438320754d4e1b95ffa77788795c51d83952e95dc8aa859ee4c1f9f04fe0a7f5"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_10_burst2_error.metadata.jsonl",
+        "sha256": "6394b979c094113baeacd5477083dd9f474921a3d6aec6b8ab40bb9f5b52e0ee"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_20_burst2_error",
+    "name": "depth_20_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "524a726a838698bd9acc9b676620d57d023b798414d481f544e812a2393e4694",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_20_burst2_error.txt",
+        "sha256": "e6b1481bbeed31f26b61b4064f71aed83e5b74f5b69e807c738b8a85922303c8"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_20_burst2_error.metadata.jsonl",
+        "sha256": "8f6c3a130012d2fdc9831ed6918a5eeadb943de5e2b03cdfe33beb40c9c3d401"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__depth_40_burst2_error",
+    "name": "depth_40_burst2_error",
+    "cohort": "synthetic",
+    "n": 360,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "d32e790284e51b644089b92a3c22ac6f0a78c293ea2c7fee05bfac838dceeb79",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/depth_40_burst2_error.txt",
+        "sha256": "14ef0d12035d2a76f792c71b775471d1e4af643142f037f23acd7dc0b05820ea"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/depth_40_burst2_error.metadata.jsonl",
+        "sha256": "48b25f502bdd69ad8563d5729d148458f5d1673652b802d82b7bc17b0d443b46"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__variable_length_dt4dds_electrochemical_taq",
+    "name": "variable_length_dt4dds_electrochemical_taq",
+    "cohort": "synthetic",
+    "n": 3600,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "c480d6373fafd47b2533a27465ea8fa6db8a9df48ce16d7bbde069e02d9815b5",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_dt4dds_electrochemical_taq.txt",
+        "sha256": "4d58c38babe65043aa15014b893324b4b6f2b28291b526c92341eada71f23a02"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_dt4dds_electrochemical_taq.metadata.jsonl",
+        "sha256": "8f809f6229de7db74cb57db84c94d1a6da75d10b1b4271833742f5643a4d2657"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__variable_length_storalator_nanopore_minion",
+    "name": "variable_length_storalator_nanopore_minion",
+    "cohort": "synthetic",
+    "n": 3600,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "a399f1bd59bdac94b4db80dda9e036f3535bca4a5c5dae523c83f303fa6c7693",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_storalator_nanopore_minion.txt",
+        "sha256": "d3fdcd6eba3749fa462610d6ce084ae27612df728f85c4b5b4bfbf0aa75883a8"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_storalator_nanopore_minion.metadata.jsonl",
+        "sha256": "94207f5ac3c430ef6d5e0e8ce4689a915acdccde3c7e149f091cbbb99c941384"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__variable_length_burst4_error",
+    "name": "variable_length_burst4_error",
+    "cohort": "synthetic",
+    "n": 3600,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "9302947dcdba1771e5ee3b2af3f2af81ce3b3336bd8bd1c6b956aa4b21be2d22",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_burst4_error.txt",
+        "sha256": "b0a46be244c9c4985ab8d90849d36009fe0794f270ec9096d085fcb4937f5826"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_burst4_error.metadata.jsonl",
+        "sha256": "0fa1762f7a6937c5c6e85923772a571a4683b76e8a13e5ec4e59b97f70639681"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__variable_length_iid_medium_error",
+    "name": "variable_length_iid_medium_error",
+    "cohort": "synthetic",
+    "n": 3600,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "63c6e0b02cefef76b955aaef2617b8c3de012057d597271f6cd94e33f64c06ce",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_iid_medium_error.txt",
+        "sha256": "d42337d2c3c967e9246c61f638e01bb5c66f477be0d9d70bf42c9a436bdcea87"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/variable_length_iid_medium_error.metadata.jsonl",
+        "sha256": "c7dd6ddba47f7096528c093f3d75ebf5a75495e3a938ffc4d91180e15f697284"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__dt4dds_deep_pcr",
+    "name": "dt4dds_deep_pcr",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "68689d1c7f8b2743788c886c6e44b4ba3add7e7f37a2ba47f9292e2dbb235501",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/dt4dds_deep_pcr.txt",
+        "sha256": "36e394be2a88e47a077b96563a5ad299d0aa5a74c1622222c70e745aa4b00797"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/dt4dds_deep_pcr.metadata.jsonl",
+        "sha256": "5b002ae0993f1a0a9066a1c73c4c760dd55c1c37907a8f5eec45ddd443e23809"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__dt4dds_electrochemical_taq",
+    "name": "dt4dds_electrochemical_taq",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "1ee1b672196378826a04eb4c1980b3f23c72e5fd7d033aa32aef3adade4ee63e",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/dt4dds_electrochemical_taq.txt",
+        "sha256": "2b95ab46ff33f737f9da0922d87b0a58fd14d041044011bc8d24ab8e7881d865"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/dt4dds_electrochemical_taq.metadata.jsonl",
+        "sha256": "00c1791e7a941d2571ddcd7d83bd77a12dee1d808603132bc72b15e3e32a5894"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__dt4dds_twist_hifi",
+    "name": "dt4dds_twist_hifi",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "dbb840795b42db2be32ea86132d5ecf08f1172c91075f4489ad35fb4b32cece1",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/dt4dds_twist_hifi.txt",
+        "sha256": "fe447ac34457b19bb295e254cc29f4e87101775872d2a68ac9e6f2da1a57f770"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/dt4dds_twist_hifi.metadata.jsonl",
+        "sha256": "9e2e1d713ce15297c7f4463842c4de57d3f61347868d96ba747be5b0bf7acef5"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__framed_iid_high_error",
+    "name": "framed_iid_high_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "a46fed5cc8d6098ac9e347e808d58f45440b4e298a8515ab3dae5171a30028ee",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_high_error.txt",
+        "sha256": "64d715c82816a7b9d321e2fb564e1e562a1d1c87cb95ea924fb274a64e37c483"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_high_error.metadata.jsonl",
+        "sha256": "1f81ab1d8fa914534f884a7591338ebe7b6f7cd48f84a6fc8c492e58f47b0572"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__framed_iid_medium_error",
+    "name": "framed_iid_medium_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "61ab8f7e0f5ec036630f69188b87e0385a81c540961133c0c8dfd16fbd14e78f",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_medium_error.txt",
+        "sha256": "2bf54eadc8f0f29c18fc8b5287e4be62dc2df917736419e46898291bd78c42f3"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_medium_error.metadata.jsonl",
+        "sha256": "5bd8a522c31fba3188106b9815d7951330f4a66cb3f8c4d4bb1c0996fd06ce19"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__framed_paper_05",
+    "name": "framed_paper_05",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "c3d82168c87b1241f4006ac9cf5540b478b5f7f1d3a3df83ed0e832bd06f7d2a",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/framed_paper_05.txt",
+        "sha256": "2ea5f618126c4873f75a1470d2c07eeda8bc50f7949f6bd8ee5d054484445314"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/framed_paper_05.metadata.jsonl",
+        "sha256": "3ef4c7740bab9a68c23540b6ed801c8f44dce612270eef39569b556d03172b06"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__storalator_illumina_miseq",
+    "name": "storalator_illumina_miseq",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "ea188e39f1433810b3b15adf8d7d81b46954e64277e6caa6c7fc797b07c86e8d",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/storalator_illumina_miseq.txt",
+        "sha256": "3a9b9e4c6dbe79ca71f455cfae4958281665b308b515e2a98d8abcec9a4d5952"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/storalator_illumina_miseq.metadata.jsonl",
+        "sha256": "01df147f4e673db7a5ac957d284a7fd97453884058dfb79dcb6df58e67406f60"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__storalator_long_deletion_stress",
+    "name": "storalator_long_deletion_stress",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "cc320b586945846233a578e465d49b2b47c02bfa7743386b5797a50ee3fb618c",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/storalator_long_deletion_stress.txt",
+        "sha256": "d2b73d8b1e5bce39a93c89f5c44e0544b1cbeda11f7da124d112f9b2478b0205"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/storalator_long_deletion_stress.metadata.jsonl",
+        "sha256": "bbeef9a77061c9ccc4b91b7993b48e9f1b01ea9e3eefec68c808ca77c4bf25be"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__storalator_nanopore_minion",
+    "name": "storalator_nanopore_minion",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "4377176faeb2cc9169fda482f3168e322b9b9c03c7378e1a942cda594d8a4e4b",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/storalator_nanopore_minion.txt",
+        "sha256": "0dabc67593b4a8dc2f40ee166a977ba9d89dde576bf9344d05ec82632ebbdc25"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/storalator_nanopore_minion.metadata.jsonl",
+        "sha256": "da05e393af432014a7a3526163e0351a714081bb4bc6d776f15da863b51c9362"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__burst2_error",
+    "name": "burst2_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "7e112bf43eecff4f44df41b3f0979e4d8241c76a3c47e53cf5c0b2158dc157ba",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst2_error.txt",
+        "sha256": "a55f4d013c12c1051db0918830b82299bf45fca53acda06b156372facab2f294"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst2_error.metadata.jsonl",
+        "sha256": "1e3ab320d3ce2d5b46261eefde6cb94cde7a8a0a842a4bd3637490fe2d49bf0d"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__burst4_error",
+    "name": "burst4_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "12742609b75e3d8225be5504ff0ea92bf9496927a79b3ccbb41dad3f2d201f99",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst4_error.txt",
+        "sha256": "bfe0303780660db04b46ae4205aab1ea864ce1ebaf1250c523d0d6a81e35e033"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst4_error.metadata.jsonl",
+        "sha256": "fb2dbdd9e72720de4627120b2a09c596d24cccd89c116215d16be899435f17b5"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__burst6_error",
+    "name": "burst6_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "8387c1451dcaf3d55f5c40118db6aa30a3a5ff753d78a757fd7f75ad4f21f834",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst6_error.txt",
+        "sha256": "50147824e2efeb08fd1cf0216280643c37d925e10e231f18f369db93bf8a787f"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst6_error.metadata.jsonl",
+        "sha256": "80f358c7674c7958232fff9fb37427f2305590df91ddc263706d955517e6de68"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__iid_extreme_error",
+    "name": "iid_extreme_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "fbe7d732cb618f767a4d8b35cd02345cf7064e083c1b3f90041c79f3571ddc7d",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_extreme_error.txt",
+        "sha256": "69a677f81224cd46eca1db9cffd708572eb8a7480e9d7dc3b2d6963b5291b747"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_extreme_error.metadata.jsonl",
+        "sha256": "6bea5cb5535ce65f363237df75ae60c1b9b9175044990b0c1f5eb70dd0bc218b"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__iid_high_error",
+    "name": "iid_high_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "1758d30f46c0ce4622abc5cf5e5bc3a5af4917b072b37f7f5a496259c740af29",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_high_error.txt",
+        "sha256": "159c35f4e626bf749a97de1c2096f856a924255e2e62cfdf5bad4954859abe03"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_high_error.metadata.jsonl",
+        "sha256": "6706600d4de4c63e870a378d06b75367a0d307c3e723a0fe426f4d42899bf61f"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__iid_low_error",
+    "name": "iid_low_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "4559261e3ac452990e24f2d2532a0ba4ec8b6fbcc1ea5d420dd39a067df25406",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_low_error.txt",
+        "sha256": "61c59a9a0cf51e68c39864b2b1b90679775781e9e7924bdd4bfa3ef8960ddc55"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_low_error.metadata.jsonl",
+        "sha256": "fde3620ee45e687141ff44a1c0aa2c48c535db7de96a9116b09eabf0101217f1"
+      }
+    ]
+  },
+  {
+    "id": "synthetic__iid_medium_error",
+    "name": "iid_medium_error",
+    "cohort": "synthetic",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "b3af8e0fb6fa5bd5034fb5ce9012c94e275a2885bb35f1333182ec97a68cf92c",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_medium_error.txt",
+        "sha256": "724afaff702cc9b7afe45946105e082a568644b078c4b822902462193dceca4c"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_medium_error.metadata.jsonl",
+        "sha256": "d6419e58ba737bec1fc3968da091859343518c66e74af182ce827c0eccf48417"
+      }
+    ]
+  },
+  {
+    "id": "real_test75__chandak",
+    "name": "chandak",
+    "cohort": "real_test75",
+    "n": 1100,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "fine_tuned"
+    ],
+    "ordered_input_sha256": "cad49781c8e25ca26185363831c707a7c57645712063debcaa2034c082bc6e76"
+  },
+  {
+    "id": "real_test75__trellis",
+    "name": "trellis",
+    "cohort": "real_test75",
+    "n": 7500,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "fine_tuned"
+    ],
+    "ordered_input_sha256": "c1223a0c94f26a0c11327c0b260f38f6ff7e2ef49fe71a65a0a73175a0516822"
+  },
+  {
+    "id": "real_test75__grass",
+    "name": "grass",
+    "cohort": "real_test75",
+    "n": 3737,
+    "shortcut": true,
+    "variants": [
+      "synthetic",
+      "fine_tuned"
+    ],
+    "ordered_input_sha256": "2af458b6b383c89f13ba08fcee4553d66f8c1a30b60cd573bee298abce4c302d"
+  },
+  {
+    "id": "real_test75__first_flowcell",
+    "name": "first_flowcell",
+    "cohort": "real_test75",
+    "n": 82469,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "fine_tuned"
+    ],
+    "ordered_input_sha256": "d48068301e4a4cad9c43f43d32e3b1f60ec197a62cc061b447f96ff8e24f1133"
+  },
+  {
+    "id": "real_test75__second_flowcell",
+    "name": "second_flowcell",
+    "cohort": "real_test75",
+    "n": 82333,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "fine_tuned"
+    ],
+    "ordered_input_sha256": "7f80e5abddde5eaf4dde7d4460100a60f66fb5db84a0e4ee1d7c25afb9d41edb"
+  },
+  {
+    "id": "real_test75__illumina",
+    "name": "illumina",
+    "cohort": "real_test75",
+    "n": 82476,
+    "shortcut": true,
+    "variants": [
+      "synthetic",
+      "fine_tuned"
+    ],
+    "ordered_input_sha256": "d656b6cb234349e33cc0f79c6d4989240ec04af9916b9f93efb5e3bc9b1d2ec7"
+  },
+  {
+    "id": "contamination_sweep__iid_low_error_p00",
+    "name": "iid_low_error_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "af9940f856cb6547463487c2b8cd3ee3e2f427b6190b1e468243570a3744d775",
+    "channel": "iid_low_error",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__iid_low_error",
+    "source_dataset_name": "iid_low_error"
+  },
+  {
+    "id": "contamination_sweep__iid_low_error_p10",
+    "name": "iid_low_error_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "e5bdc6bfd829a48419fc1eb23f7358a7cfd379b9a4987e55888910a5a2dcb14f",
+    "channel": "iid_low_error",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__iid_low_error",
+    "source_dataset_name": "iid_low_error"
+  },
+  {
+    "id": "contamination_sweep__iid_low_error_p20",
+    "name": "iid_low_error_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "7f31916cc17c9de60949e6a2f589a7ae9c615b192c5b6972aba027b5104be6af",
+    "channel": "iid_low_error",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__iid_low_error",
+    "source_dataset_name": "iid_low_error"
+  },
+  {
+    "id": "contamination_sweep__iid_low_error_p30",
+    "name": "iid_low_error_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "192d7469f62ce963c883ba1d2bb3fa845580aadf48a377612f1b1c996ae1d34e",
+    "channel": "iid_low_error",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__iid_low_error",
+    "source_dataset_name": "iid_low_error"
+  },
+  {
+    "id": "contamination_sweep__iid_low_error_p40",
+    "name": "iid_low_error_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "a0d276a6cbde4b10e9b995036280932bc7882a58265628201fbefc0e374b8192",
+    "channel": "iid_low_error",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__iid_low_error",
+    "source_dataset_name": "iid_low_error"
+  },
+  {
+    "id": "contamination_sweep__iid_low_error_p50",
+    "name": "iid_low_error_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "f2890781c987ec886b483951e2098e0cde9d988f51d7f8e1511e2be3aaf9c2ef",
+    "channel": "iid_low_error",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__iid_low_error",
+    "source_dataset_name": "iid_low_error"
+  },
+  {
+    "id": "contamination_sweep__iid_high_error_p00",
+    "name": "iid_high_error_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "179bbb2c8101ceef6e7222fbf395904dfad914d9277d10ce29e461a061be1d71",
+    "channel": "iid_high_error",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__iid_high_error",
+    "source_dataset_name": "iid_high_error"
+  },
+  {
+    "id": "contamination_sweep__iid_high_error_p10",
+    "name": "iid_high_error_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "4c8a8ad4dadcc2fd921329af48e74501531fcf837eb386178a70526d486fd9f6",
+    "channel": "iid_high_error",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__iid_high_error",
+    "source_dataset_name": "iid_high_error"
+  },
+  {
+    "id": "contamination_sweep__iid_high_error_p20",
+    "name": "iid_high_error_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "a7bce121bfc7a1df40caae11f382ea7fa10d5ae555809048b0decd6981b3e10f",
+    "channel": "iid_high_error",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__iid_high_error",
+    "source_dataset_name": "iid_high_error"
+  },
+  {
+    "id": "contamination_sweep__iid_high_error_p30",
+    "name": "iid_high_error_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "51297042e7191b7b94e764d912aa26308aee5b4054744db4058c1c560bb478d2",
+    "channel": "iid_high_error",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__iid_high_error",
+    "source_dataset_name": "iid_high_error"
+  },
+  {
+    "id": "contamination_sweep__iid_high_error_p40",
+    "name": "iid_high_error_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "6c74237bd4f4900e45813502ab47e5c19446d2228d1ac904a1d7f626c0672733",
+    "channel": "iid_high_error",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__iid_high_error",
+    "source_dataset_name": "iid_high_error"
+  },
+  {
+    "id": "contamination_sweep__iid_high_error_p50",
+    "name": "iid_high_error_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "6615c74a13b4dc302644a28b72b3d95052b603fe7efc0bfad3ef23e048b6ef05",
+    "channel": "iid_high_error",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__iid_high_error",
+    "source_dataset_name": "iid_high_error"
+  },
+  {
+    "id": "contamination_sweep__burst4_error_p00",
+    "name": "burst4_error_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "7cadf72f460b04ad9ca14c07b0768be3da3cda2683a271866fb01aa12c787c39",
+    "channel": "burst4_error",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__burst4_error",
+    "source_dataset_name": "burst4_error"
+  },
+  {
+    "id": "contamination_sweep__burst4_error_p10",
+    "name": "burst4_error_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "8cbfe223a44093a14234907ca8e1caa0fbd188733336952ecb7e30a4cfe910fd",
+    "channel": "burst4_error",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__burst4_error",
+    "source_dataset_name": "burst4_error"
+  },
+  {
+    "id": "contamination_sweep__burst4_error_p20",
+    "name": "burst4_error_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "766d40403144b61ff4402ab8562f273ff122ca7f8d734e8e6d0b2c28b1b0885c",
+    "channel": "burst4_error",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__burst4_error",
+    "source_dataset_name": "burst4_error"
+  },
+  {
+    "id": "contamination_sweep__burst4_error_p30",
+    "name": "burst4_error_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "e04df61cd388ad2fb646a10fb1bbaf3db68b41677104dff0e182342776948be8",
+    "channel": "burst4_error",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__burst4_error",
+    "source_dataset_name": "burst4_error"
+  },
+  {
+    "id": "contamination_sweep__burst4_error_p40",
+    "name": "burst4_error_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "99acbcf05c82f21ac27be4221b8024b65b429f39d7ffec99c48506de64fdec18",
+    "channel": "burst4_error",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__burst4_error",
+    "source_dataset_name": "burst4_error"
+  },
+  {
+    "id": "contamination_sweep__burst4_error_p50",
+    "name": "burst4_error_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "4247a01ad565d0e74a4455e81a2093c2f237f681492081166ba7ecafc75bd96e",
+    "channel": "burst4_error",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__burst4_error",
+    "source_dataset_name": "burst4_error"
+  },
+  {
+    "id": "contamination_sweep__framed_paper_05_p00",
+    "name": "framed_paper_05_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "58c663b6f2b3ab6b9d95796d37581000c5ed6f08332da5c9a2aca996ed76b7cf",
+    "channel": "framed_paper_05",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__framed_paper_05",
+    "source_dataset_name": "framed_paper_05"
+  },
+  {
+    "id": "contamination_sweep__framed_paper_05_p10",
+    "name": "framed_paper_05_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "833cbd7063faed805fb5f92a87723530823c838db745238cdcbac19f2238baf8",
+    "channel": "framed_paper_05",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__framed_paper_05",
+    "source_dataset_name": "framed_paper_05"
+  },
+  {
+    "id": "contamination_sweep__framed_paper_05_p20",
+    "name": "framed_paper_05_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "e21808a4de0d33c3d8d7cf139cf4174451b4a53186dc0aee64dc84153698b195",
+    "channel": "framed_paper_05",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__framed_paper_05",
+    "source_dataset_name": "framed_paper_05"
+  },
+  {
+    "id": "contamination_sweep__framed_paper_05_p30",
+    "name": "framed_paper_05_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "2d9abeedef3bc5565671cccb44a718f85d59e55e80bbdfac2d3c93ad6de69ef0",
+    "channel": "framed_paper_05",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__framed_paper_05",
+    "source_dataset_name": "framed_paper_05"
+  },
+  {
+    "id": "contamination_sweep__framed_paper_05_p40",
+    "name": "framed_paper_05_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "ddbbf259b0a919f4eec5c6b364dd9c8528ab2bacb70268ad258caf49ffe6e0b0",
+    "channel": "framed_paper_05",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__framed_paper_05",
+    "source_dataset_name": "framed_paper_05"
+  },
+  {
+    "id": "contamination_sweep__framed_paper_05_p50",
+    "name": "framed_paper_05_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "229f9dfe25b40c0bd467d23400628d3c07aae53eb7c671dcd36dae1bc078bd61",
+    "channel": "framed_paper_05",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__framed_paper_05",
+    "source_dataset_name": "framed_paper_05"
+  },
+  {
+    "id": "contamination_sweep__storalator_nanopore_minion_p00",
+    "name": "storalator_nanopore_minion_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "9bc7d4232d7beed77751288592bfb83c6ca2ecd014b3ae1aad4919c2c332ee39",
+    "channel": "storalator_nanopore_minion",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__storalator_nanopore_minion",
+    "source_dataset_name": "storalator_nanopore_minion"
+  },
+  {
+    "id": "contamination_sweep__storalator_nanopore_minion_p10",
+    "name": "storalator_nanopore_minion_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "72096896f0bd6b1fa32b141f7f090b8c557fb891d054f0113d5ca1a01cd1088b",
+    "channel": "storalator_nanopore_minion",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__storalator_nanopore_minion",
+    "source_dataset_name": "storalator_nanopore_minion"
+  },
+  {
+    "id": "contamination_sweep__storalator_nanopore_minion_p20",
+    "name": "storalator_nanopore_minion_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "43b0658fc47d072c10053a58b9e8b582c99baeeefcabd6bc2ef08bcb415d8af7",
+    "channel": "storalator_nanopore_minion",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__storalator_nanopore_minion",
+    "source_dataset_name": "storalator_nanopore_minion"
+  },
+  {
+    "id": "contamination_sweep__storalator_nanopore_minion_p30",
+    "name": "storalator_nanopore_minion_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "b55034f64b6a23351453d37bbc412f621ca3c23948807bbcd96c42a08a0d81db",
+    "channel": "storalator_nanopore_minion",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__storalator_nanopore_minion",
+    "source_dataset_name": "storalator_nanopore_minion"
+  },
+  {
+    "id": "contamination_sweep__storalator_nanopore_minion_p40",
+    "name": "storalator_nanopore_minion_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "ee06c01b287bf162c8376101446d6652e2b02033c1abcf3c22600f5d2050f488",
+    "channel": "storalator_nanopore_minion",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__storalator_nanopore_minion",
+    "source_dataset_name": "storalator_nanopore_minion"
+  },
+  {
+    "id": "contamination_sweep__storalator_nanopore_minion_p50",
+    "name": "storalator_nanopore_minion_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "98e7efad68dd8691ccb3b70c413186594b45dafec2014ee19e8f17b50db8ae04",
+    "channel": "storalator_nanopore_minion",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__storalator_nanopore_minion",
+    "source_dataset_name": "storalator_nanopore_minion"
+  },
+  {
+    "id": "contamination_sweep__storalator_long_deletion_stress_p00",
+    "name": "storalator_long_deletion_stress_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "7502e2fad42f669c91034ad340ce150bd37abcb14bcae2bc807b60dbcd83d0f0",
+    "channel": "storalator_long_deletion_stress",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__storalator_long_deletion_stress",
+    "source_dataset_name": "storalator_long_deletion_stress"
+  },
+  {
+    "id": "contamination_sweep__storalator_long_deletion_stress_p10",
+    "name": "storalator_long_deletion_stress_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "8dbccccd46da97b4e235f4fea2026f3dae8c210bf71d17940038c5f0b796a6b9",
+    "channel": "storalator_long_deletion_stress",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__storalator_long_deletion_stress",
+    "source_dataset_name": "storalator_long_deletion_stress"
+  },
+  {
+    "id": "contamination_sweep__storalator_long_deletion_stress_p20",
+    "name": "storalator_long_deletion_stress_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "70d6dc1eda4c53ae347288e418adb5a9c7544376c022f0f6615733391644abe4",
+    "channel": "storalator_long_deletion_stress",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__storalator_long_deletion_stress",
+    "source_dataset_name": "storalator_long_deletion_stress"
+  },
+  {
+    "id": "contamination_sweep__storalator_long_deletion_stress_p30",
+    "name": "storalator_long_deletion_stress_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "8922c8f5db6fe0d6560f38e32abb042b021f9f8b71ddcd0b4e5510d0505b5d88",
+    "channel": "storalator_long_deletion_stress",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__storalator_long_deletion_stress",
+    "source_dataset_name": "storalator_long_deletion_stress"
+  },
+  {
+    "id": "contamination_sweep__storalator_long_deletion_stress_p40",
+    "name": "storalator_long_deletion_stress_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "5ca5cad82ccea993e80577c8d88862ea5a4f68ff1d69e46091782590bb166789",
+    "channel": "storalator_long_deletion_stress",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__storalator_long_deletion_stress",
+    "source_dataset_name": "storalator_long_deletion_stress"
+  },
+  {
+    "id": "contamination_sweep__storalator_long_deletion_stress_p50",
+    "name": "storalator_long_deletion_stress_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "8fd0c834b018b47a50b71680753e2dd0252b72e8660275b1e8486e4011794d00",
+    "channel": "storalator_long_deletion_stress",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__storalator_long_deletion_stress",
+    "source_dataset_name": "storalator_long_deletion_stress"
+  },
+  {
+    "id": "contamination_sweep__dt4dds_deep_pcr_p00",
+    "name": "dt4dds_deep_pcr_p00",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "a833fd2b589d670ea59d423a15f3b6e0b7439b4d850cf67694bd4b1915cbadca",
+    "channel": "dt4dds_deep_pcr",
+    "requested_percent": 0,
+    "source_dataset_id": "synthetic__dt4dds_deep_pcr",
+    "source_dataset_name": "dt4dds_deep_pcr"
+  },
+  {
+    "id": "contamination_sweep__dt4dds_deep_pcr_p10",
+    "name": "dt4dds_deep_pcr_p10",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "78eb4286a2b79b3badb067edbecde15ef6f1d57be959bfa60c7bb06f69c6d29b",
+    "channel": "dt4dds_deep_pcr",
+    "requested_percent": 10,
+    "source_dataset_id": "synthetic__dt4dds_deep_pcr",
+    "source_dataset_name": "dt4dds_deep_pcr"
+  },
+  {
+    "id": "contamination_sweep__dt4dds_deep_pcr_p20",
+    "name": "dt4dds_deep_pcr_p20",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "4c08f53528c0824c62e45f45ec4260e62845848ce00a8f29b4d54f2a55286e61",
+    "channel": "dt4dds_deep_pcr",
+    "requested_percent": 20,
+    "source_dataset_id": "synthetic__dt4dds_deep_pcr",
+    "source_dataset_name": "dt4dds_deep_pcr"
+  },
+  {
+    "id": "contamination_sweep__dt4dds_deep_pcr_p30",
+    "name": "dt4dds_deep_pcr_p30",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "2d353dbf58c94a1e8eb81f939c32c9034b5aa87c0fc44bf88a1f5f11b0393f8f",
+    "channel": "dt4dds_deep_pcr",
+    "requested_percent": 30,
+    "source_dataset_id": "synthetic__dt4dds_deep_pcr",
+    "source_dataset_name": "dt4dds_deep_pcr"
+  },
+  {
+    "id": "contamination_sweep__dt4dds_deep_pcr_p40",
+    "name": "dt4dds_deep_pcr_p40",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "742cb351ed5cedd9e82ea0a544931a278159b13ffd6b708efed596aaf033ea00",
+    "channel": "dt4dds_deep_pcr",
+    "requested_percent": 40,
+    "source_dataset_id": "synthetic__dt4dds_deep_pcr",
+    "source_dataset_name": "dt4dds_deep_pcr"
+  },
+  {
+    "id": "contamination_sweep__dt4dds_deep_pcr_p50",
+    "name": "dt4dds_deep_pcr_p50",
+    "cohort": "contamination_sweep",
+    "n": 600,
+    "shortcut": false,
+    "variants": [
+      "synthetic",
+      "learned_filter"
+    ],
+    "ordered_input_sha256": "c5bd6e798542951d3e7c19b674bc772a3ed80ed6eee709419d15c91d6515386a",
+    "channel": "dt4dds_deep_pcr",
+    "requested_percent": 50,
+    "source_dataset_id": "synthetic__dt4dds_deep_pcr",
+    "source_dataset_name": "dt4dds_deep_pcr"
+  },
+  {
+    "id": "synthetic_depth__iid_extreme_error_high_seq_depth",
+    "name": "iid_extreme_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "1c332567c964badeb5a29656bcb498374b60634677dc7de5c9990bc378a334fa",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_extreme_error_high_seq_depth.txt",
+        "sha256": "a51af34104234d33ff8f074382a18cd2d291b3b1cb2e79e04dc16ad7bb29e1b3"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_extreme_error_high_seq_depth.metadata.jsonl",
+        "sha256": "6a65fa39f3df43e958421ca7d73dee779aa036c53cc8ae535570d24bca6e8b37"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__iid_high_error_high_seq_depth",
+    "name": "iid_high_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "fbe6d5be1e8f04328d4eeaceba28d94b43be8a8e67e0e2c8f47b8c370912b11e",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_high_error_high_seq_depth.txt",
+        "sha256": "1a0564f910810ebfe4ffcac81e77b0534650cc550655468a292111eced0081a8"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_high_error_high_seq_depth.metadata.jsonl",
+        "sha256": "96a0575a36f523c9db6c2f8ee81ac6d803d8e5031e47c0e90d8a9156d3e1ac31"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__iid_medium_error_high_seq_depth",
+    "name": "iid_medium_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "b5b1faf9965f4b36266b29481961aca87a788177402d9f4531881406c12ce056",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/iid_medium_error_high_seq_depth.txt",
+        "sha256": "bc16c7f574660546d630c10ecfa83c2c10418bc4a9bc84512857c3f1c459e6c3"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/iid_medium_error_high_seq_depth.metadata.jsonl",
+        "sha256": "1164f6505aad5af0a7ea843075adda049f11ff0414b6a0641448ad4ef0989146"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__framed_iid_high_error_high_seq_depth",
+    "name": "framed_iid_high_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "556c4c5ab359a112fe5741f67825c920cff55d1196c87c94659ec4c09d8df1cc",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_high_error_high_seq_depth.txt",
+        "sha256": "473f2357ec21d80956a19bc3b9e115aff9df36dfbe3c810e5ec2d422bc286070"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_high_error_high_seq_depth.metadata.jsonl",
+        "sha256": "fb361a1b26481b5abe2bc3c25b1ee63c2ea200bb7d18849396f07835f5bc6262"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__framed_iid_medium_error_high_seq_depth",
+    "name": "framed_iid_medium_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "ce1c0746b67e52f960bb8c309f3ed2a6c91c667500e96f3f68aec1dd03e66612",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_medium_error_high_seq_depth.txt",
+        "sha256": "8b130f53af71c066b143305093816576a60cbd4bf295260d763aabad701597e8"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/framed_iid_medium_error_high_seq_depth.metadata.jsonl",
+        "sha256": "9545c363340f68364d69f242364e940cf5c90dca74d6af3138363dfe1c0b91bf"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst2_error_high_seq_depth",
+    "name": "burst2_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "007efe0098309c02c487e71236f666a29f5adf51cbe3b9d46175f21f89cbe05b",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst2_error_high_seq_depth.txt",
+        "sha256": "3954c09f47d2fcdd3ad6bed809ce70e35970b90761ed8f274fc8e20efe4f856f"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst2_error_high_seq_depth.metadata.jsonl",
+        "sha256": "9534a0dc79217901082f191c486485bcb450f5f6ba39fafea1f2c346e82e74b9"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst4_error_high_seq_depth",
+    "name": "burst4_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "4fb50b66768c688288609558f0057fc82511e63b9885581ce4dcd65c6b69113a",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst4_error_high_seq_depth.txt",
+        "sha256": "6186e93ebcda1e18a8d42b2de5146b859b2f8e30597350b56fcf58b4cf5c7e96"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst4_error_high_seq_depth.metadata.jsonl",
+        "sha256": "b81b2836e354802b24b1e0c951462887dc12a35aeb56d9aec1012baefcea9d1f"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst6_error_high_seq_depth",
+    "name": "burst6_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "e6f8af3cfb24be61d084aabc813db769f5359fdeef3a9d4b7f8870dc9fd3f752",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst6_error_high_seq_depth.txt",
+        "sha256": "b66eeafdbb6fea89568849b56926f803dad35978b34e478a59d93bd592083316"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst6_error_high_seq_depth.metadata.jsonl",
+        "sha256": "51b82ae18a746e0e88553fb5f7ccb53c252b5ed8173d061d609a5080e1009315"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst8_error_high_seq_depth",
+    "name": "burst8_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "6778fae67649e38bce4496a9346bfab7373042e7f8b6db0be0bcdb7d569cb5a7",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst8_error_high_seq_depth.txt",
+        "sha256": "620f687f4b814652bfb685da730d3a575625ffaeb127ec4b7aad150b6277703e"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst8_error_high_seq_depth.metadata.jsonl",
+        "sha256": "24c84c595eccb80973d10d34c454094eb58804b8d7fc1c68baa691a90c4c8add"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst8_error_low_seq_depth",
+    "name": "burst8_error_low_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "3f4969ae43b934b7edbb3ce47ed50693c27d550b809670394de1f766986c6367",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst8_error_low_seq_depth.txt",
+        "sha256": "d4ba53aedfc0c607db27044ad453d471bc910235dafc2c68673bbe1460033339"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst8_error_low_seq_depth.metadata.jsonl",
+        "sha256": "907106373bb69ba7694ad66fd7b904b585a5fadce5c26d5527187e7e2f75b7a8"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst10_error_high_seq_depth",
+    "name": "burst10_error_high_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "323c3119a7ba56dc05f016e0dbb33da8185869e4d5cab57857d4410736e6310a",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst10_error_high_seq_depth.txt",
+        "sha256": "b2b7be907ad8d3d3da6a774f81d6cc6b9fef99bb29b632c824afc822df9baa55"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst10_error_high_seq_depth.metadata.jsonl",
+        "sha256": "d467efb16ce81b5ae3c34e82893dfe9279caf85d44230c630f2e4eaf4efc4a55"
+      }
+    ]
+  },
+  {
+    "id": "synthetic_depth__burst10_error_low_seq_depth",
+    "name": "burst10_error_low_seq_depth",
+    "cohort": "synthetic_depth",
+    "n": 1800,
+    "shortcut": false,
+    "variants": [
+      "synthetic"
+    ],
+    "ordered_input_sha256": "d6f2018144a810883f6d4f60b04b46c8bb3427293fb88fd04336eb3f71907680",
+    "sources": [
+      {
+        "path": "Synthetic Datasets/datasets/burst10_error_low_seq_depth.txt",
+        "sha256": "fb58eefa7c900fdc01230a5f08ac23bdd96bc15669dd063a2f2a04f0acbc060c"
+      },
+      {
+        "path": "Synthetic Datasets/datasets/burst10_error_low_seq_depth.metadata.jsonl",
+        "sha256": "7f7532d8225d848b1e4e9cf87b7a105ab079cf537a27031bad6fe3b304bef4af"
+      }
+    ]
+  }
+]

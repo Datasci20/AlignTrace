@@ -1,0 +1,13 @@
+The partition_into and insertion_into routines in aligntrace/beam.py were
+adapted from Numba's quicksort implementation.
+Copyright (c) 2012, Anaconda, Inc. All rights
+reserved. The BSD two-clause license text is reproduced in
+licenses/NUMBA_LICENSE.txt. The installed Numba distribution's accompanying
+third-party notices are preserved in licenses/NUMBA_THIRD_PARTY_LICENSES.txt.
+
+NumPy, Numba, PyTorch, and RapidFuzz are external dependencies, installed
+separately and governed by their respective licenses. Their package binaries
+and Python environments are not redistributed here.
+
+The project owner must specify reuse terms for AlignTrace code and model
+weights before public release. Dataset reuse terms are separate.
